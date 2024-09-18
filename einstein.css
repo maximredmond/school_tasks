@@ -1,0 +1,9 @@
+body {
+    background-color: #303234;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+li {
+    margin-bottom: 10px;
+}
