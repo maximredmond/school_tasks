@@ -4,12 +4,11 @@
     <head>
         <title>Albert Einstein</title>
         <link rel="stylesheet" href="einstein.css">
-        <script src="main.js"></script>
     </head>
 
     <body>
         <h1>Albert Einstein</h1>
-        <img src="R.jpeg" width="500" style="float: right; margin-right: 100px;">
+        <img src="R.jpeg" width="500" style="float: right; margin-right: 100px; border: 6px solid #007BFF;">
 
         <h2>About</h2>
         <ul>
@@ -20,9 +19,25 @@
             <li>Einstein moved to the United States in 1933 and spent the rest of his life there, passing away on April 18, 1955, in Princeton, New Jersey</li>
         </ul>
 
-        <div id="images"></div>
-        <button id="next" onclick="nextImage()">Next</button>
+        <h2>Most Famous Equations</h2>
+
+        <ol>
+            <li>Mass-Energy Equivalence: E = mc²</li>
+            <li>Einstein Field Equations of General Relativity:<br>
+                R<sub>μν</sub> - (1/2) R g<sub>μν</sub> + Λ g<sub>μν</sub> = (8πG/c⁴) T<sub>μν</sub>
+            </li>
+            <li>Photoelectric Effect Equation: E = hν - φ</li>
+            <li>Einstein Relation in Brownian Motion: D = μk<sub>B</sub>T</li>
+            <li>Bose-Einstein Statistics Formula:<br>
+                n(ε) = 1 / [e<sup>(ε - μ)/(k<sub>B</sub>T)</sup> - 1]
+            </li>
+          </ol>
+
+        <div id="images" style="height: 400px;"></div>
+
+        <button class="next-button" onclick="nextImage()" style="float: left; margin-left: 30px;">Next Image</button>
         
+        <script src="main.js"></script>
     </body>
 
 </html>

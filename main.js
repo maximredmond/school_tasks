@@ -1,6 +1,6 @@
 const imageContainer = document.getElementById("images");
 
-imageContainer.innerHTML = '<img src="R.jpeg" width="500" style="float: right; margin-right: 100px;">';
+imageContainer.innerHTML = '<img src="1.jpeg" width="500">';
 
 let counter = 0;
 
